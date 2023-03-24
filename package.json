@@ -1,0 +1,27 @@
+{
+  "name": "@backOffice/utils",
+  "version": "1.0.0",
+  "description": "Data Access Layer",
+  "author": "yousefivaghef <yousefivaghef@behsazan.net>",
+  "license": "ISC",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "http://maven-dev.behsazan.net/artifactory/api/npm/behsazan-npm-repo/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/DAL.test.js"
+  },
+  "dependencies": {
+    "@hassanmojab/react-modern-calendar-datepicker": "^3.1.7",
+    "font-awesome": "^4.7.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "moment-jalaali": "^0.9.6",
+    "react-bootstrap-typeahead": "^6.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
